@@ -1,9 +1,8 @@
-#include <tetra_hardware.h>
-#include <tetrahardvare.h>
-#include <init.h>
-#include <subroutine.h>
-#include <uitask.h>
-#include <slowtask.h>
+#include "tetra_hardware.h" 
+#include "init.h"
+#include "subroutine.h"
+#include "uitask.h"
+#include "slowtask.h"
 
 #define UI_UPDATE_TIME 50
 #define SLOW_UPDATE_TIME 200
