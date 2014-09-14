@@ -10,9 +10,11 @@ class troyka
 
 public:
     
-    troyka(pin) {
+    troyka(uint8_t pin) {
         _pin=pin;
     }
+    
+    void init();
     
 private:
 
