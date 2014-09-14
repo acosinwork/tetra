@@ -1,16 +1,23 @@
-#include <arduino.h>
+#ifndef TROYKA_H
+#define TROYKA_H
+
 #include <inttypes.h>
 
-class troyka()
+
+
+class troyka 
 {
 
 public:
     
-    init(uint8_t pin); 
-    
+    troyka(pin) {
+        _pin=pin;
+    }
     
 private:
 
     uint8_t _pin;    
     
 }
+
+#endif
