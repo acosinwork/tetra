@@ -11,8 +11,6 @@ public:
     
 private:
 
-    uint8_t _pin;
-
-    
+    uint8_t _pin;    
     
 }
