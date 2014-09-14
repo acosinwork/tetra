@@ -1,0 +1,18 @@
+#include <arduino.h>
+#include <inttypes.h>
+
+class troykaButton()
+{
+
+public:
+    
+    init(uint8_t pin);
+    
+    
+    
+    
+private:
+
+    
+    
+}
